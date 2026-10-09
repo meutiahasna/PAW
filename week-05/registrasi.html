@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title>
+            Form Registrasi Sederhana
+        </title>
+    </head>
+    <body>
+        <main>
+            <section>
+                <h1>
+                    Form Registrasi Member
+                </h1>
+
+                <p id="feedback" aria-live="polite"></p>
+
+                <Form id="form_registrasi">
+                    <label for="Nama Lengkap">Nama Lengkap: </label>
+                    <input type="text" id="nama_lengkap" name="nama">
+
+                    <label for="Email">Email: </label>
+                    <input type="email" id="email_member" name="email">
+
+                    <button type="submit">Daftar</button>
+                </Form>
+
+                <h2>Data Terdaftar</h2>
+                <ul id="daftar_member"></ul>
+            </section>
+        </main>
+
+        <script src="script.js"></script>
+    </body>
+</html>
